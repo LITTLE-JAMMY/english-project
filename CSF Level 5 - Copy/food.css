@@ -1,0 +1,94 @@
+
+.background-image {
+    background-image: url("image/54.jpg");
+    min-height: 457px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service {
+    padding: 40px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.service .fas{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.service:hover {
+    background-color: rgb(24, 182, 255);
+    color: #ffffff;
+    border: 0px;
+}
+#explore {
+    transition: 1s;
+    font-size: large;
+}
+#home {
+    color: #ffffff;
+}
+#about {
+    color : #ffffff;
+}
+#contact {
+    color: #ffffff;
+}
+#rest {
+    color : #ffffff;
+}
+#shop {
+    color: #ffffff;
+}
+#nam {
+    background-color :#268bff;
+}
+#jam {
+    color: #8cf7ff;
+}
+#shop:hover {
+    color:rgb(255, 225, 0);
+}
+#home:hover {
+    color:rgb(255, 225, 0);
+}
+#about:hover {
+    color:rgb(255, 225, 0);
+}
+#contact:hover {
+    color:rgb(255, 225, 0);
+}
+#explore{
+    box-shadow: 0px 4px 5px #0099ff;
+    background-color: rgb(13, 110, 253);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.footer {
+    background-color: #C0D5FE;
+}
+.footer a {
+    text-decoration: none;
+}
+#type {
+    display: none;
+}
+.card-title{
+    text-transform: capitalize;
+}
+.fab {
+    size: 30px;
+}
+.notice {
+    display: none;
+}
+#intro {
+    margin: 75px;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    background:  linear-gradient(to bottom right, rgb(0, 0, 0), rgb(255, 0, 234));
+}
